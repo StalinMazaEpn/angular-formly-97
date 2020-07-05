@@ -1,8 +1,8 @@
 ports:
-  - port: 8100
+  - port: 3000
 tasks:
-  - init: npm && npm install -g @angular/cli && npm install -g @ionic/cli && npm install  
-    command: ionic serve --prod
+  - init: npm && npm install -g @angular/cli && npm install  
+    command: ng serve
 github:
   prebuilds:
     # enable for the master/default branch (defaults to true)
